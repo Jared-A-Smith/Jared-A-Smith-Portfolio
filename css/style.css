@@ -1,0 +1,135 @@
+h1, h2, h3 {font-family: "Agency FB";
+    color: floralwhite
+}
+
+h1 {font-size:60px;
+    color:floralwhite
+}
+
+h2 {font-size:40px;
+    
+}
+
+h3 {font-size:35px;
+    color:floralwhite;
+}
+
+h4{ font-size:20px;
+    color:floralwhite;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    margin:0;
+    padding-top:0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color:floralwhite;
+    background-color:#999999;
+}
+p{
+    text-align:justify
+}
+
+.bg-blue{
+    background-color:#005161;
+}
+a{
+    color:floralwhite
+}
+.logo{
+    font-family:"Agency FB";
+    color:floralwhite;
+}
+
+.nav-brand.logo{
+    color:floralwhite;
+}
+.nav-brand.logo:hover{
+    color:#ffcc99;
+}
+
+.nav-link:hover{
+    color:#ffcc99;
+}
+
+.spacer.v120{
+    height:120px;
+}
+.spacer.v60{
+    height: 60px;
+}
+.spacer.v40{
+    height:40px;
+}
+.spacer.v20{
+    height:20px;
+}
+
+.featureImage{
+    border-radius:25px;
+    width: 100%;
+    position: relative;
+    height: 400px;
+    background-size:cover;
+    background-position:center;
+}
+
+    .featureImage.homeIndex{
+        background-image: url("../Images/Parcels_2.png");
+}
+.featureImage .text{
+    margin:0;
+    color:floralwhite;
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:80%;
+    color:#000;
+    text-align: center;
+    -webkit-transform:translate (-50%,-50%);
+    transform: translate(-50%,-50%);
+    
+}
+
+.home-mission {
+    margin:30px;
+    color:floralwhite;
+    text-align: justify
+}
+.home-mission h2{
+    color:floralwhite
+}
+.portfolio-title {
+    color:floralwhite
+}
+
+.portfolio-description {
+    color:floralwhite;
+    text-align: justify
+}
+.portfolio-image{
+    border-radius: 25px;
+    
+}
+
+.portfolio-thumbnail{
+    margin:2px;
+    border-style:solid;
+    border-width: 2px;
+    border-color: floralwhite;
+    border-width: 3px;
+    width: 95%;
+}
+
+.portfolio-thumbnail:hover{
+    border-color:#ffcc99;
+}
+
+.jumbotron {
+  background-image: url("../Images/Parcels_2.png");
+  text-align: center;
+  color: #fff;
+  padding: 2%;
+}
+
